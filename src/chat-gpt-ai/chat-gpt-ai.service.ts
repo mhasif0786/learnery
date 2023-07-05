@@ -8,7 +8,7 @@ export class ChatGptAiService {
     constructor(){
         const configuration = new Configuration({
             organization: process.env.ORGANISATION_ID,
-            apiKey: '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',
+            apiKey: '',
         });
         this.OpenAiApi = new OpenAIApi(configuration);
     }
